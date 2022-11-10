@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Tray from '../../../components/atoms/Tray/Tray';
+import Tray from '../../../components/molecules/Tray/Tray';
 
 export default {
-  title: 'Components/Atoms/Tray',
+  title: 'Components/Molecules/Tray',
   component: Tray,
 };
 

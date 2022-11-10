@@ -1,0 +1,25 @@
+.trayWrapper {
+    background-color: white;
+    width: 30vw;
+    height: 100vh;
+    filter: drop-shadow(0 5px 5px gray)
+}
+
+.trayHeader {
+    border-bottom: medium solid var(--primary-color);
+    filter: drop-shadow(0 5px 5px gray);
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trayCloseButton {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    position: relative;
+    height: 32px;
+    width: 32px;
+}

@@ -1,0 +1,6 @@
+.NavLink {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    padding: .5rem 0;
+}
