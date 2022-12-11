@@ -59,7 +59,9 @@ const Nav = ({ user }) => {
               {!user ? (
                 <ul>
                   <li className={styles.navLink}>
-                    <Link href="#">About</Link>
+                    <Link href="/about" onClick={handleTrayOnClick}>
+                      About
+                    </Link>
                   </li>
                   <li className={styles.navLink}>
                     <Link href="#">Sign In</Link>
@@ -68,7 +70,7 @@ const Nav = ({ user }) => {
               ) : (
                 <ul>
                   <li className={styles.navLink}>
-                    <Link href="#">About</Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li className={styles.navLink}>
                     <Link href="#">Sign Out</Link>
