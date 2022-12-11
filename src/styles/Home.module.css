@@ -28,7 +28,12 @@
 
 .ctaButton {
   border: none;
-  width: 10rem;
-  padding: 1.25rem;
+  border-radius: 5px;
+  width: 13rem;
+  padding: 1rem;
   background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  box-shadow: 0 2px 5px 1px gray;
 }
