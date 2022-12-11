@@ -1,0 +1,14 @@
+.main {
+    width: 100vw;
+    height: 80vh;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}

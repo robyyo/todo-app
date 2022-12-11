@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/About.module.css';
 
 export default function About() {
@@ -12,14 +13,26 @@ export default function About() {
         />
       </Head>
       <main className={styles.main}>
-        <div className={styles.ctaWrapper}>
+        <div className={styles.contentWrapper}>
           <p>
-            Do more of what you need to do, so you can do more of what you want
-            to do. We can help!
+            Simple ToDo application using NextJS, NextAuth and MongoDB. Check
+            out the GitHub repository here.
           </p>
-          <div className={styles.ctaImgWrapper}></div>
-          <div className={styles.ctaButtonWrapper}>
-            <button className={styles.ctaButton}>Get Started</button>
+          <p>
+            I&apos;d love to know what you think. Reach out at any of my forms
+            of contact below!
+          </p>
+          <div className={styles.ctaImgWrapper}>
+            <Image
+              alt="Github logo"
+              src="/img/aboutpage-graphic.svg"
+              width={380}
+              height={190}
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
+            />
           </div>
         </div>
       </main>
