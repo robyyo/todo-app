@@ -1,0 +1,15 @@
+.menubuttonWrapper {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  position: relative;
+  filter: drop-shadow(4px 4px 4px var(--secondary-color-hover));
+}
+
+.menubuttonContainer {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
