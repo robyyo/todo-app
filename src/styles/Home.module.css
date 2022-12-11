@@ -1,0 +1,33 @@
+.main {
+  height: 80vh;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.ctaWrapper {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+}
+
+.ctaWrapper p{
+  line-height: 2.5rem;
+}
+
+.ctaImgWrapper {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.ctaButtonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaButton {
+  border: none;
+  width: 10rem;
+  padding: 1.25rem;
+  background-color: var(--secondary-color);
+}
