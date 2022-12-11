@@ -24,7 +24,7 @@ const Nav = ({ user }) => {
         {!user ? (
           <ul>
             <li className={styles.navLink}>
-              <Link href="#">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className={styles.navLink}>
               <Link href="#">Sign In</Link>
