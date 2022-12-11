@@ -24,7 +24,7 @@ export default function About() {
           </p>
           <div className={styles.ctaImgWrapper}>
             <Image
-              alt="Github logo"
+              alt="Woman with envelope, mobile device, and telephone"
               src="/img/aboutpage-graphic.svg"
               width={380}
               height={190}
