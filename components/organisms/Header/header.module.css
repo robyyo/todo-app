@@ -1,4 +1,20 @@
 .headerWrapper {
-    width: 100vw;
-    
+  width: 100vw;
+  background-color: var(--primary-color);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 56px;
+  font-weight: lighter;
+  color: var(--secondary-color)
+
 }
