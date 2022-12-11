@@ -1,0 +1,15 @@
+.footerWrapper {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  justify-content: flex-end;
+}
+
+.sociallinks {
+  display: flex;
+}
+.link {
+  margin: 0 0.5rem;
+}
