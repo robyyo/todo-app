@@ -46,7 +46,7 @@ const Nav = ({ user }) => {
       ) : (
         <div className={styles.trayWrapper}>
           <div className={styles.trayHeader}>
-            <h2>ToDo App</h2>
+            <div className={styles.logo}>ToDo</div>
             <button
               className={styles.trayCloseButton}
               onClick={handleTrayOnClick}

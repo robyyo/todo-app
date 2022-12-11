@@ -2,7 +2,7 @@
     background-color: white;
     width: 55vw;
     height: 100vh;
-    filter: drop-shadow(0 5px 5px gray);
+    box-shadow: 0 2px 5px 1px lightgray;
     position: absolute;
     top: 0;
     right: 0;
@@ -10,8 +10,8 @@
 
 .trayHeader {
     border-bottom: medium solid var(--primary-color);
-    filter: drop-shadow(0 5px 5px gray);
-    background-color: white;
+    box-shadow: 0 2px 5px 1px lightgray;
+    background-color: var(--primary-color);
     padding: 1rem;
     display: flex;
     flex-direction: row;

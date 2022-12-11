@@ -3,6 +3,7 @@
   background-color: var(--primary-color);
   margin-bottom: 1rem;
   padding: 1rem;
+  box-shadow: 0 2px 5px 1px lightgray;
 }
 
 .container {
@@ -16,5 +17,4 @@
   font-size: 56px;
   font-weight: lighter;
   color: var(--secondary-color)
-
 }
