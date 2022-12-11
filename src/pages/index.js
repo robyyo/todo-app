@@ -10,7 +10,6 @@ export default function Home() {
           name="description"
           content="Simple ToDo app built with NextJS, NextAuth and MongoDB"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       </Head>
       <main className={styles.main}>
         <div className={styles.ctaWrapper}>
@@ -376,7 +375,6 @@ export default function Home() {
           <div className={styles.ctaButtonWrapper}><button className={styles.ctaButton}>Get Started</button></div>
         </div>
       </main>
-      <footer>Footer</footer>
     </div>
   );
 }
