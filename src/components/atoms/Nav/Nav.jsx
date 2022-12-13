@@ -24,16 +24,22 @@ const Nav = ({ user }) => {
         {!user ? (
           <ul>
             <li className={styles.navLink}>
-              <Link href="/about">About</Link>
+              <Link href="/about" onClick={handleTrayOnClick}>
+                About
+              </Link>
             </li>
             <li className={styles.navLink}>
-              <Link href="#">Sign In</Link>
+              <Link href="/auth/signin" onClick={handleTrayOnClick}>
+                Sign In
+              </Link>
             </li>
           </ul>
         ) : (
           <ul>
             <li className={styles.navLink}>
-              <Link href="#">About</Link>
+              <Link href="/about" onClick={handleTrayOnClick}>
+                About
+              </Link>
             </li>
             <li className={styles.navLink}>
               <Link href="#">Sign Out</Link>
@@ -64,13 +70,17 @@ const Nav = ({ user }) => {
                     </Link>
                   </li>
                   <li className={styles.navLink}>
-                    <Link href="#">Sign In</Link>
+                    <Link href="/auth/signin" onClick={handleTrayOnClick}>
+                      Sign In
+                    </Link>
                   </li>
                 </ul>
               ) : (
                 <ul>
                   <li className={styles.navLink}>
-                    <Link href="/about">About</Link>
+                    <Link href="/about" onClick={handleTrayOnClick}>
+                      About
+                    </Link>
                   </li>
                   <li className={styles.navLink}>
                     <Link href="#">Sign Out</Link>
